@@ -1,0 +1,24 @@
+{
+  "appDesc": {
+    "message":
+      "This extension allows you to search for SCPs directly in your browser.",
+    "description": "Extension description"
+  },
+  "link": {
+    "message": "More",
+    "description": "Link allowing the user to access the full page of the SCP"
+  },
+  "notFound": {
+    "message": "SCP Not found :(",
+    "description": "SCP is not found on the database (with smiley, of course)"
+  },
+  "SCPincorrect": {
+    "message": "SCP isn't correct",
+    "description":
+      "SCP page is strange, the program can not find the required elements"
+  },
+  "unknownError": {
+    "message": "Unknown error ¯\\_(ツ)_/¯",
+    "description": "Unknown error"
+  }
+}

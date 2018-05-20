@@ -1,0 +1,26 @@
+{
+  "appDesc": {
+    "message":
+      "Cette extension permet de chercher des SCP directement dans votre navigateur.",
+    "description": "Description de l'extension"
+  },
+  "link": {
+    "message": "En savoir plus",
+    "description":
+      "Lien permettant à l'utilisateur d'accéder à la page complète du SCP"
+  },
+  "notFound": {
+    "message": "SCP introuvable",
+    "description":
+      "le SCP est introuvable sur la base de données de la fondation"
+  },
+  "SCPincorrect": {
+    "message": "Le SCP est incorrect",
+    "description":
+      "La page du SCP est bizarre, le programme n'arrive pas à trouver les éléments requis"
+  },
+  "unknownError": {
+    "message": "Erreur inconnue ¯\\_(ツ)_/¯",
+    "description": "Erreur inconnue"
+  }
+}

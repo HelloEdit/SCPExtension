@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/textfield.css">
+  <link rel="stylesheet" href="../css/app.css">
+
+  <!-- NOTYF -->
+  <link rel="stylesheet" href="../lib/notie.min.css">
+  <script async src="../lib/notie.min.js"></script>
+
+  <script src="../javascripts/search.js"></script>
+</head>
+
+<body>
+  <div id="page">
+    <div id="body-search">
+      <img src="../media/logo.png" id="baniere_img" />
+
+      <form class="form-group" id="form" autocomplete="off">
+        <input type="text" name="SCP" id="SCP" required />
+        <label class="control-label" for="input">SCP</label>
+        <i class="bar"></i>
+      </form>
+    </div>
+  </div>
+
+
+  <template id="template-SCP">
+    <!-- 
+      This balise is dedicated for the presentation
+      of the SCP searched (HTML 5 is soooo awesome)
+     -->
+    <div id="body-SCP">
+      <header class="SCP">
+        <div class="SCP-image">
+          <img id="SCP-image" src="" />
+        </div>
+        <div class="SCP-title">
+          <h1 id="SCP-name"></h1>
+          <h3 id="SCP-class"></h3>
+        </div>
+      </header>
+      <article>
+        <p id="SCP-desc"></p>
+        <a id="SCP-link" href=""></a>
+      </article>
+    </div>
+  </template>
+</body>
+
+</html>
